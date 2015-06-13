@@ -2,6 +2,7 @@ package com.example.android.happybirthday;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.AlertDialog;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -30,6 +31,13 @@ public class MainActivity extends ActionBarActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            String bd = "Happy birthday....Aysher may you leave 1000 more years";
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.setMessage(bd)
+                    .setTitle("From Kagga")
+                    .setIcon(R.drawable.ic_kagga)
+                    .create()
+                    .show();
             return true;
         }
 

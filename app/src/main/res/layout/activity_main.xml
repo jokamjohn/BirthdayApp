@@ -7,10 +7,10 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/androidparty"
+        android:src="@drawable/ic_asy"
         android:scaleType="centerCrop"/>
 
-    <TextView android:text="Happy Birthday Diane"
+    <TextView android:text="Happy Birthday Aysher"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:textSize="36sp"
